@@ -6,13 +6,15 @@
     it should retrieve something like: `<path_of_project>/stableTrade/venv/bin/Python`
 4. Install the required dependencies with: `pip3 install -r .requirements.txt`
 
-## API initialization
-1. Create an API key and secret key from Settings>Account>API Management. 
+## API Authorization (**CURRENTLY NOT WORKING**)
+1. Create an API key and secret key from Settings>Account>API Management.
+    You must use the *Self-generated* and use RSA.
     You will need to enable 2FA and whitelist your IP Adress to enable
     Spot & Margin trading.
-2. Store your API key and Secret key in a .env file as:
+2. Store your API key, path to private key and url endpoint in a .env file as:
    ```
     API_KEY=<api_key>
-    SECRET_KEY=<secret_key>
+    PATH=<path_to_secret_key>
+    URL=<endpoint_url>
    ``` 
 
