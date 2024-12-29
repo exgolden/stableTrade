@@ -18,3 +18,5 @@
     URL=<endpoint_url>
    ``` 
 
+## Missing functionalities
+- Retrieve average order size and side
